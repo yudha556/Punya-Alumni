@@ -152,7 +152,7 @@ footer {
     }
 
     .awal h1 {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 70px;
         margin-top: -50px;
         margin-left: 20px;
@@ -172,7 +172,7 @@ footer {
 
     .pertama h1 {
         font-size: 10px;
-        margin-left: 30px;
+        margin-left: -30px;
         margin-top: -20px;
         margin-right: 60px;
     }
@@ -215,6 +215,7 @@ footer {
         margin-top: 150px;
         margin-bottom: 20px;
         justify-content: center;
+        margin-left: -15px;
     }
 
     .parent h2 {
