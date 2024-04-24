@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    object-fit: contain;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0px;
+}
+
+/* bagian slide 1*/
+h1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 40px;
+}
+
+span {
+    color: #f27c22;
+
+}
+
+.aset {
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+}
+
+.aset img {
+    margin: 10px;
+}
+
+.awal {
+    display: flex;
+    flex-direction: column;
+}
+
+.awal h1 {
+    margin: -10px;
+    text-align: center;
+    font-size: 51px;
+    padding: 20px;
+    margin-bottom: 100px;
+    width: 100%;
+
+}
+
+/*slide 2*/
+.container {
+    margin-bottom: 0px;
+}
+
+.container img {
+    margin: 0;
+    margin-left: -200px;
+    width: 200px;
+    margin-top: 120px;
+}
+
+.container h2 {
+    margin-left: -200px;
+    margin-right: 200px;
+    font-size: 35px;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent img {
+    width: 550px;
+    height: 400px;
+    margin-right: -250px;
+    border-radius: 80px 40px;
+    transform: translateY(-220px);
+    background-color: #000000;
+}
+
+/*slide 3 */
+
+.galeri h1 {
+    padding: 90px;
+    text-align: center;
+    margin: 0;
+    transform: translateY(-80px);
+    
+}
+
+/*untuk bagian foto */
+li {
+    list-style: none;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.jurusan {
+    padding: 200px;
+    width: 266%;
+    height: 95%;
+    max-width: 250px;
+    box-shadow: #000000 20px 20px 20px 5px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.jurusan img {
+    width: 100%;
+}
+
+.jurusan h3 {
+    margin-bottom: 10px;
+}
+
+.jurusan p {
+    font-size: small;
+}
+
+/*responsive nanti buat kode css diatasnya ini wajib!!!!*/
+/*khusus footer aja*/
+footer {
+    margin-top: 90px;
+    text-align: center;
+}
+/* Mobile */
+@media (max-width: 576px) {
+    .aset,
+    .profile {
+        width: 90%;
+    }
+
+    .awal h1 {
+        font-size: 14px;
+        margin-bottom: 70px;
+        margin-top: -50px;
+        margin-left: 20px;
+        width: 90%;
+
+    }
+
+    .aset img {
+        width: 50px;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        margin: 0;
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+
+    .pertama h1 {
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: -20px;
+        margin-right: 60px;
+    }
+
+    .parent {
+        display: flex;
+    }
+
+    .container {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .container img {
+        width: 60px;
+        margin: 0;
+        margin-top: 70px;
+        display: flex;
+    }
+
+    .container h2 {
+        width: 576px;
+        margin-bottom: 90px;
+        margin-right: 0px;
+    }
+
+    .parent img {
+        width: 130px;
+        height: 100px;
+        margin-top: 50px;
+        justify-content: center;
+        transform: scale(0.8);
+        transform: translateY(-50px);
+        border-radius: 20px 40px;
+        margin-right: 0px;
+    }
+
+    .galeri h1 {
+        width: 90%;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .parent h2 {
+        font-size: 20px;
+        margin: 0;
+        align-items: center;
+    }
+
+    .profile {
+        gap: 40px;
+        width: 90%;
+        margin: 0;
+        margin-left: 15px;
+        transform: translateY(-150px);
+    }
+
+    .jurusan {
+        padding: 20px;
+    }
+
+    .jurusan img {
+        width: 200px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .parent {
+        flex-direction: row;
+    }
+
+    .parent img {
+        width: 50%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
