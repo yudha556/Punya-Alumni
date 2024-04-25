@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: black;
+    background-color: white;
     object-fit: contain;
 }
 
@@ -250,7 +251,7 @@ footer {
         inset: 20px;
         width: 25%;
         margin: 0px;
-        margin-top: -10px;
+        margin-top: 70px;
         position: relative;
     }
 
@@ -273,7 +274,7 @@ footer {
     .container img {
         width: 60px;
         margin: 0;
-        margin-top: 70px;
+        margin-top: 100px;
         display: flex;
     }
 
@@ -294,14 +295,6 @@ footer {
         margin-right: 10px;
     }
 
-    .galeri h1 {
-        width: 90%;
-        margin-top: 150px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-        justify-content: center;
-    }
-
     .parent h2 {
         font-size: 20px;
         margin: 0;
@@ -311,10 +304,9 @@ footer {
     /* bagian slide 3 */
     .profil {
         width: 90%;
-        margin-top: 40px;
+        margin-top: 100px;
         width: 90%;
         margin-left: 20px;
-        background-color: aliceblue;
     }
 
     .profil h1 {
@@ -340,14 +332,13 @@ footer {
     }
 
     .tkj img {
-        margin-left: 30%;
+        margin-left: 34.3%;
     }
 
     .tkj li {
         margin: 70px;
-        text-align: left;
-        width: 80%;
-        margin-left: 33px;
+        text-align: center;
+        width: 60%;
         margin-top: 5px;
         font-size: 10px;
     }
@@ -363,15 +354,15 @@ footer {
     }
 
     .akl img {
-        margin-left: 30%;
+        margin-left: 34.3%;
     }
 
     .akl li {
         margin: 70px;
-        text-align: left;
-        width: 80%;
-        margin-left: 33px;
+        text-align: center;
+        width: 60%;
         margin-top: 5px;
+        margin-left: 67px;
         font-size: 10px;
     }
 
@@ -386,14 +377,13 @@ footer {
     }
 
     .tbsm img {
-        margin-left: 30%;
+        margin-left: 34.3%;
     }
 
     .tbsm li {
         margin: 70px;
-        text-align: left;
-        width: 80%;
-        margin-left: 33px;
+        text-align: center;
+        width: 60%;
         margin-top: 5px;
         font-size: 10px;
     }
@@ -429,9 +419,9 @@ footer {
     }
 
     .link p {
-        margin-top: 100px;
+        margin-top: 150px;
         margin-left: 60px;
-        font-size: 3px;
+        font-size: 5px;
     }
 
     /* Tablet */
