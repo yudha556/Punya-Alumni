@@ -239,23 +239,23 @@ footer {
     }
 
     .awal h1 {
-        font-size: 10px;
+        font-size: 13px;
         margin-bottom: 70px;
-        margin-top: 24px;
-        margin-left: 10px;
+        margin-top: 40px;
+        margin-left: 20px;
         width: 90%;
     }
 
     .aset img {
-
+        inset: 20px;
         width: 25%;
         margin: 0px;
-        margin-top: 3px;
+        margin-top: -10px;
         position: relative;
     }
 
     .pertama h1 {
-        font-size: 8px;
+        font-size: 10px;
         margin-left: -20px;
         margin-top: -10px;
         margin-right: 60px;
@@ -267,7 +267,7 @@ footer {
 
     .container {
         width: 90%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .container img {
@@ -291,13 +291,14 @@ footer {
         transform: scale(0.8);
         transform: translateY(-50px);
         border-radius: 10px 30px;
-        margin-right: -10px;
+        margin-right: 10px;
     }
 
     .galeri h1 {
         width: 90%;
         margin-top: 150px;
         margin-bottom: 20px;
+        margin-left: 10px;
         justify-content: center;
     }
 
@@ -312,11 +313,13 @@ footer {
         width: 90%;
         margin-top: 40px;
         width: 90%;
-        margin-left: 10px;
+        margin-left: 20px;
+        background-color: aliceblue;
     }
 
     .profil h1 {
         align-items: center;
+        text-align: center;
         justify-content: center;
         padding: 0px;
         font-size: 120%;
@@ -337,7 +340,7 @@ footer {
     }
 
     .tkj img {
-        margin-left: 25%;
+        margin-left: 30%;
     }
 
     .tkj li {
@@ -360,7 +363,7 @@ footer {
     }
 
     .akl img {
-        margin-left: 25%;
+        margin-left: 30%;
     }
 
     .akl li {
@@ -383,7 +386,7 @@ footer {
     }
 
     .tbsm img {
-        margin-left: 25%;
+        margin-left: 30%;
     }
 
     .tbsm li {
