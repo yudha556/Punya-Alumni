@@ -247,7 +247,7 @@ footer {
 
     .awal h1 {
         font-size: 13px;
-        margin-bottom: 70px;
+        margin-bottom: 150px;
         margin-top: 40px;
         margin-left: 20px;
         width: 90%;
@@ -279,7 +279,6 @@ footer {
 
     .container img {
         width: 60px;
-        margin: 0;
         margin-top: 100px;
         display: flex;
     }
