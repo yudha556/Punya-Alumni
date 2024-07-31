@@ -1,3 +1,6 @@
+# Link Publik
+https://yudha556.github.io/Punya-Alumni/
+
 # Punya-Alumni
 jadi web ini saya buat untuk menambah sebuah project saja tetapi jika ramai yang melihat mungkin akan saya kembangkan lagiii
 
